@@ -1,25 +1,25 @@
 # TangerineUI-Userscript
-An userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://github.com/nileane/TangerineUI-for-Mastodon) by [@nileane](https://github.com/nileane) 🍊🐘 on whichever instance you'd like !
+A userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://github.com/nileane/TangerineUI-for-Mastodon) by [@nileane](https://github.com/nileane) 🍊🐘 on whichever instance you'd like!
 
 # Usage and Installation
 
-## Installing an userscript manager
+## Installing a userscript manager
 ### Chrome / Firefox
-   - Install an userscript manager, either › [ViolentMonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
+   - Installa userscript manager, either › [ViolentMonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
 ### Safari (iOS / macOS)
-   - Install an userscript manager › [Userscripts](https://apps.apple.com/tt/app/userscripts/id1463298887) — ([Github](https://github.com/quoid/userscripts))
+   - Installa userscript manager › [Userscripts](https://apps.apple.com/tt/app/userscripts/id1463298887) — ([Github](https://github.com/quoid/userscripts))
 
 ## Installing the userscript
-- Once the userscript manager is installed, click on this [link](https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js), your userscript manager should offer you to install the script. On Safari, the Userscript extension doesn't offer this automatically, you would need to then click extension icon to be offered to install the userscript.
+- Once the userscript manager is installed, click on this [link](https://github.com/Write/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js), your userscript manager should offer you to install the script. On Safari, the Userscript extension doesn't offer this automatically, you would need to then click extension icon to be offered to install the userscript.
 - After the userscript is installed, edit the userscript to add a @match (at the top of the file) rule for each mastodon instances you want the theme to be enabled on. Respect the same format that is given for pre-defined instances.
 - You can change easily switch between the normal, purple or cherry variants by changing colorScheme (instances below 4.3) or newColorScheme (instances equals or above 4.3). Cherry is only available for >= 4.3.
-- You can set the tag you want to use for instances strictly below 4.3.0 and for instances >= 4.3.0 by changing tag_below_4_3_0 and tag_above_or_equals_4_3_0 variables. To find tag, look at the left sidebar in the releases of TangerineUI : https://github.com/nileane/TangerineUI-for-Mastodon/releases and change it accordingly.
+- You can set the tag you want to use for instances strictly below 4.3.0 and for instances >= 4.3.0 by changing tag_below_4_3_0 and tag_above_or_equals_4_3_0 variables. To find tag, look at the left sidebar in the releases of TangerineUI: https://github.com/nileane/TangerineUI-for-Mastodon/releases and change it accordingly.
 
 # Changelog
 
 ### Release 2.2.1
 
-+ set default TangerineUI tag to latest release : v2.1
++ set default TangerineUI tag to latest release: v2.1
 + fix a race condition that injected the theme before mastodon version could be detected
 + "temporarily" remove the workaround that was made to avoid 'flash issues' while loading.
 
@@ -67,4 +67,4 @@ An userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://githu
 - Moved from requestAnimationFrame to MutationObserver which should inject theme even faster. 
 - Hugely improved code's readability
 - Compatible with both Firefox and Chrome
-- Support Safari, even though injection is slow, limited to requestAnimationFrame API as MutationObserver doesn't work most of the time (except when cache is cleared with CMD + SHIFT + R), certainly a limitation from how Safari handle extensions. Safari extension is : https://apps.apple.com/us/app/userscripts/id1463298887  -- Mac & iOS support. It support UserStyles too, so you could just create one instead.
+- Support Safari, even though injection is slow, limited to requestAnimationFrame API as MutationObserver doesn't work most of the time (except when cache is cleared with CMD + SHIFT + R), certainly a limitation from how Safari handle extensions. Safari extension is: https://apps.apple.com/us/app/userscripts/id1463298887  -- Mac & iOS support. It support UserStyles too, so you could just create one instead.
