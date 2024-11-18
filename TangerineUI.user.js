@@ -6,6 +6,9 @@
 // @match       https://piaille.fr/*
 // @match       https://eldritch.cafe/*
 // @match       https://h-i.social/*
+// @match       https://infosec.exchange/*
+// @match       https://kolektiva.social/*
+// @match       https://freefree.ps/*
 // @match       https://AddYourInstanceUrlHere.tld/*
 // @downloadURL https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
 // @updateURL   https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
@@ -27,11 +30,11 @@
 
     /* colorScheme used for older (< 4.3) instances */
     /* Either 'tangerine' or 'purple' */
-    const legacyColorScheme = 'tangerine';
+    const legacyColorScheme = 'purple';
 
     /* colorScheme used for new (>= 4.3) instances */
     /* Either 'tangerine', 'purple', 'cherry' or 'lagoon' */
-    const colorScheme = 'tangerine';
+    const colorScheme = 'purple';
 
     /* Github tag to use for mastodon instance < 4.3 and >= 4.3
     /* To find tags name, go here : https://github.com/nileane/TangerineUI-for-Mastodon/releases
