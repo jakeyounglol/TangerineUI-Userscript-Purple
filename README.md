@@ -17,6 +17,10 @@ A userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://github
 
 # Changelog
 
+### Release 2.2.3
+
++ set default TangerineUI tag to latest release : v2.3
+
 ### Release 2.2.1
 
 + set default TangerineUI tag to latest release: v2.1
