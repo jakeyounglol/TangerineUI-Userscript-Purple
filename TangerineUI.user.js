@@ -3,6 +3,7 @@
 // @namespace   TangerineUI for Mastodon by @nileane
 // @match       https://mamot.fr/*
 // @match       https://mastodon.social/*
+// @match       https://mstdn.social/*
 // @match       https://piaille.fr/*
 // @match       https://eldritch.cafe/*
 // @match       https://h-i.social/*
