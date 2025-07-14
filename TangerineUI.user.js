@@ -4,7 +4,7 @@
 // @match       https://mamot.fr/*
 // @match       https://mastodon.social/*
 // @match       https://piaille.fr/*
-// @match       https://eldritch.cafe/*
+// @match       https://mstdn.social/*
 // @match       https://h-i.social/*
 // @match       https://diaspodon.fr/*
 // @match       https://AddYourInstanceUrlHere.tld/*
@@ -27,8 +27,8 @@
     /* These will be used as fallback for any Mastodon instance not explicitly configured below */
     /* Available themes: 'tangerine', 'purple', 'cherry', 'lagoon' */
     const defaultThemes = {
-        legacy: 'tangerine',  // For versions < 4.3.0
-        modern: 'cherry'      // For versions >= 4.3.0
+        legacy: 'purple',  // For versions < 4.3.0
+        modern: 'purple'      // For versions >= 4.3.0
     };
     
     /* Per-host theme configuration */
@@ -36,27 +36,27 @@
     /* Available themes: 'tangerine', 'purple', 'cherry', 'lagoon' */
     const perHostThemes = {
         'mamot.fr': {
-            legacy: 'tangerine',
-            modern: 'cherry'
+            legacy: 'purple',
+            modern: 'purple'
         },
         'mastodon.social': {
             legacy: 'purple',
             modern: 'purple'
         },
         'piaille.fr': {
-            legacy: 'tangerine',
-            modern: 'lagoon'
+            legacy: 'purple',
+            modern: 'purple'
         },
         'eldritch.cafe': {
             legacy: 'purple',
-            modern: 'cherry'
+            modern: 'purple'
         },
         'h-i.social': {
-            legacy: 'tangerine',
-            modern: 'tangerine'
+            legacy: 'purple',
+            modern: 'purple'
         },
         'diaspodon.fr': {
-            legacy: 'tangerine',
+            legacy: 'purple',
             modern: 'purple'
         }
         // Add more hosts as needed
