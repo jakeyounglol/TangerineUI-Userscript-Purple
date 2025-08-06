@@ -8,9 +8,9 @@
 // @match       https://h-i.social/*
 // @match       https://diaspodon.fr/*
 // @match       https://AddYourInstanceUrlHere.tld/*
-// @downloadURL https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
-// @updateURL   https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
-// @homepageURL https://github.com/Write/TangerineUI-Userscript
+// @downloadURL https://github.com/jakeyounglol/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js
+// @updateURL   https://github.com/jakeyounglol/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js
+// @homepageURL https://github.com/jakeyounglol/TangerineUI-Userscript-Purple
 // @grant       none
 // @version     2.2.4.6
 // @author      @Write on Github for the UserScript
