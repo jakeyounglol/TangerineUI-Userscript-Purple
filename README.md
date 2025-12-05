@@ -5,9 +5,9 @@ An userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://githu
 
 ## Installing an userscript manager
 ### Chrome / Firefox
-   - Install an userscript manager, either › [ViolentMonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
+   - Install a userscript manager, either › [ViolentMonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
 ### Safari (iOS / macOS)
-   - Install an userscript manager › [Userscripts](https://apps.apple.com/tt/app/userscripts/id1463298887) — ([Github](https://github.com/quoid/userscripts))
+   - Install a userscript manager › [Userscripts](https://apps.apple.com/tt/app/userscripts/id1463298887) — ([Github](https://github.com/quoid/userscripts))
 
 ## Installing the userscript
 - Once the userscript manager is installed, click on this [link](https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js), your userscript manager should offer you to install the script. On Safari, the Userscript extension doesn't offer this automatically, you would need to then click extension icon to be offered to install the userscript.
