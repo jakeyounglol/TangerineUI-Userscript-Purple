@@ -10,6 +10,7 @@
 // @match       https://eldritch.cafe/*
 // @match       https://h-i.social/*
 // @match       https://diaspodon.fr/*
+// @match       https://mstdn.social/*
 //
 // @downloadURL https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
 // @updateURL   https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
@@ -30,8 +31,8 @@
     /* Available themes: 'tangerine', 'purple', 'cherry', 'lagoon' */
     /* Note: Only tangerine & purple is available for TangerineUI < v2.0 (legacy) */
     const defaultThemes = {
-        legacy: "tangerine", // Default theme to use when Mastodon is below 4.3.0 (legacy)
-        modern: "tangerine",
+        legacy: "purple", // Default theme to use when Mastodon is below 4.3.0 (legacy)
+        modern: "purple",
     };
 
     /* Per-host theme configuration */
