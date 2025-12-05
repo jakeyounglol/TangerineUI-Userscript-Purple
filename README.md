@@ -1,5 +1,5 @@
 # TangerineUI-Userscript
-An userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://github.com/nileane/TangerineUI-for-Mastodon) by [@nileane](https://github.com/nileane) 🍊🐘 on whichever instance you'd like !
+An userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://github.com/nileane/TangerineUI-for-Mastodon) by [@nileane](https://github.com/nileane) 🍊🐘 on any instance you'd like!
 
 # Usage and Installation
 
@@ -24,13 +24,13 @@ An userscript to load [TangerineUI Redesign for Mastodon's Web UI](https://githu
 
 ### Release 2.2.3
 
-+ set default TangerineUI tag to latest release : v2.3
++ set default TangerineUI tag to latest release: v2.3
 
 ### Release 2.2.1
 
-+ set default TangerineUI tag to latest release : v2.1
++ set default TangerineUI tag to latest release: v2.1
 + fix a race condition that injected the theme before mastodon version could be detected
-+ "temporarily" remove the workaround that was made to avoid 'flash issues' while loading.
++ temporarily remove the workaround that was made to avoid 'flash issues' while loading.
 
 ### Release 2.2.0 
 
