@@ -12,9 +12,9 @@
 // @match       https://diaspodon.fr/*
 // @match       https://mstdn.social/*
 //
-// @downloadURL https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
-// @updateURL   https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
-// @homepageURL https://github.com/Write/TangerineUI-Userscript
+// @downloadURL https://github.com/jakeyounglol/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js
+// @updateURL   https://github.com/jakeyounglol/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js
+// @homepageURL https://github.com/jakeyounglol/TangerineUI-Userscript-Purple
 // @grant       none
 // @version     2.2.5.2
 // @author      nileane (TangerineUI) & Write (Userscript)
