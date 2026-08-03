@@ -81,9 +81,9 @@
 // @match       https://ublog.tech/*
 // @match       https://yyc.bike/*
 //
-// @downloadURL https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
-// @updateURL   https://github.com/Write/TangerineUI-Userscript/raw/main/TangerineUI.user.js
-// @homepageURL https://github.com/Write/TangerineUI-Userscript
+// @downloadURL https://github.com/jakeyounglol/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js
+// @updateURL   https://github.com/jakeyounglol/TangerineUI-Userscript-Purple/raw/main/TangerineUI.user.js
+// @homepageURL https://github.com/jakeyounglol/TangerineUI-Userscript-Purple
 // @grant       none
 // @version     2.6.3.1
 // @author      nileane (TangerineUI), mattbirchler (Tangerine-Neue fork), Write (Userscript)
@@ -138,9 +138,9 @@
      * and granite are ignored on legacy and fall back to tangerine.
      * Granite is only available on Tangerine-Neue (≥ 4.6). */
     const defaultThemes = {
-        legacy: "tangerine", // Default theme for Mastodon < 4.3.0
-        modern: "tangerine", // Default theme for Mastodon 4.3.x – 4.5.x
-        neue: "tangerine",   // Default theme for Mastodon >= 4.6.0 (Tangerine-Neue fork)
+        legacy: "purple", // Default theme for Mastodon < 4.3.0
+        modern: "purple", // Default theme for Mastodon 4.3.x – 4.5.x
+        neue: "purple",   // Default theme for Mastodon >= 4.6.0 (Tangerine-Neue fork)
     };
 
     /* Per-host theme configuration
